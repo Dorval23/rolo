@@ -317,7 +317,7 @@ footer {
 
 @media screen and (max-width:500px) {
     header {
-        background-position: center;
+        background-position: top;
         background-size: 550px;
     }
 
