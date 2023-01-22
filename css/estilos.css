@@ -297,79 +297,67 @@ footer{
 }
 
 @media screen and (max-width:500px){
-    nav{
-        text-align: center;
-        padding: 30px 0 0 0;
+header {
+        background-position: center;
     }
 
-    nav > a{
-        margin-right: 5px;
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .textos-header h1{
-        font-size: 35px;
+    .sobre-nosotros .contenido-textos {
+        width: 90%;
     }
 
-    .textos-header h2{
-        font-size: 20px;
-    }
-
-    /* ABOUT US */
-
-    .imagen-about-us{
-        margin-bottom: 60px;
-        width: 99%;
-    }
-
-    .sobre-nosotros .contenido-textos{
-        width: 95%;
+    .imagen-about-us {
+        width: 90%;
     }
 
     /* Galeria */
 
-    .imagen-port{
-        width: 95%;
+    .imagen-port {
+        width: 44%;
     }
 
-    /* Clients */
+    /* Clientes */
 
-    .cards .card{
-        height: 450px;
-        display: flex;
+    .cards {
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
-    .cards .card img{
-        width: 90px;
-        height: 90px;
+    .cards .card {
+        width: 90%;
     }
 
-    /* Footer */
+    .cards .card:first-child {
+        margin-bottom: 30px;
+    }
 
-    .contenedor-footer{
+    /* servicios */
+
+    .servicio-cont {
+        justify-content: center;
         flex-direction: column;
-        border: none;
     }
 
-    .content-foo{
-        margin-bottom: 20px;
+    .servicio-ind {
+        width: 100%;
         text-align: center;
     }
 
-    .content-foo h4{
-        border: none;
+    .servicio-ind:nth-child(1),
+    .servicio-ind:nth-child(2) {
+        margin-bottom: 60px;
     }
 
-    .content-foo p{
-        color: #ccc;
-        border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 20px;
+    .servicio-ind img {
+        width: 90%;
     }
-
-    .titulo-final{
-        font-size: 20px;
-    }
+}
 }
 .mov{
     animation-duration: 3s;
