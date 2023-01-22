@@ -318,9 +318,7 @@ footer {
 @media screen and (max-width:500px) {
     header {
         background-position: center;
-        background-size: cover;
-        width: 100%;
-        heigth: 100vh;
+        background-size: 550px;
     }
 
     .contenedor-sobre-nosotros {
