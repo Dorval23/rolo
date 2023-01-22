@@ -9,6 +9,14 @@ body {
     background-color: #002e25;
     
 }
+h2{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 2rem;
+}
+h3{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 1.5rem;
+}
 .verde{
     background-color: #002e25;
 }
@@ -33,6 +41,7 @@ body {
 p{
     color: #cccdd7;
     margin: 3rem;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 /* Header */
@@ -237,6 +246,7 @@ footer{
 @media screen and (max-width:900px){
     header{
         background-position: center;
+        background-size: cover;
     }
 
     .contenedor-sobre-nosotros{
@@ -299,6 +309,7 @@ footer{
 @media screen and (max-width:500px){
 header {
         background-position: center;
+        background-size: cover;
     }
 
     .contenedor-sobre-nosotros {
@@ -358,15 +369,18 @@ header {
         width: 90%;
     }
 }
-}
+
 .mov{
     animation-duration: 3s;
     animation-name: slidein;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 5rem;
 }
 .mov1 {
     padding: 1rem;
     animation-duration: 3s;
     animation-name: slidein1;
+    font-family: 'Caveat', cursive;
 }
 
 @keyframes slidein {
