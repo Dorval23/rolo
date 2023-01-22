@@ -319,6 +319,8 @@ footer {
     header {
         background-position: center;
         background-size: cover;
+        width: 100%;
+        heigth: 100vh;
     }
 
     .contenedor-sobre-nosotros {
